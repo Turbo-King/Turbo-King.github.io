@@ -20,7 +20,7 @@
 
         function login() {
             Bmob.User.login(document.getElementById("username").value, document.getElementById("password").value).then(res => {
-                location.href = "userinfo.html";
+                location.href = "userInfo.html";
             }).catch(err => {
                 alert(err.error);
             });
