@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Turbo-King 欢迎您！</title>
-    <script src="js/userInfo_bg.js"></script>
-    <script>
+    <script src="js/userInfo_bg.js">
+
         Bmob.initialize("17712d06fef648bd", "112233");
         Bmob.debug(true);
 
@@ -14,6 +14,7 @@
             spanTag.innerHTML = user.username;
         }
     </script>
+
     <style>
         * {
             margin: 0;
@@ -31,20 +32,6 @@
 
 
 <script>
-
-    var html = '<div style="text-align: center;">\n' +
-        '    <span id="info"></span>\n' +
-        '    <button onclick="getLoginInfo()">\n' +
-        '        GetLoginUserInfo\n' +
-        '    </button>\n' +
-        '    <br>\n' +
-        '    <br>\n' +
-        '    <form action="user_game.html">\n' +
-        '        <input type="submit" value="开始飞机大战小游戏" style="font-size: 50px">\n' +
-        '    </form>\n' +
-        '</div>';
-    document.write(html);
-
 
     var can = document.getElementById("canvas");
     //设置绘图环境
@@ -168,6 +155,18 @@
         return Math.random() * (max - min) + min; //min - max之间的随机数
     }
 </script>
+
+<div style="text-align: center;">
+    <span id="info"></span>
+    <button onclick="getLoginInfo()">
+        GetLoginUserInfo
+    </button>
+    <br>
+    <br>
+    <form action="user_game.html">
+        <input type="submit" value="开始飞机大战小游戏" style="font-size: 50px">
+    </form>
+</div>
 
 
 </body>
