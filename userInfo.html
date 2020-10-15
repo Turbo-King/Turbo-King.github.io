@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <title>canvas雨滴特效-jq22.com</title>
     <script src="js/userInfo_bg.js"></script>
+    <script>
+        Bmob.initialize("17712d06fef648bd", "112233");
+        Bmob.debug(true);
+
+        function getLoginInfo() {
+            let user = Bmob.User.current();
+            var spanTag = document.getElementById("info");
+            spanTag.innerHTML = user.username;
+        }
+    </script>
     <style>
         * {
             margin: 0;
