@@ -26,7 +26,7 @@
 
                 ENEMY : {
 
-                    blood : [2,10,20,5],
+                    blood : [2,5,10,3],
                     score : [2,20,50,10],
                     speed : [1,3,1,2],
                     bullet : [false,false,false,true],
