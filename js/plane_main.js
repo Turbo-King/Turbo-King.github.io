@@ -29,7 +29,7 @@
                     blood : [2,5,10,3],
                     score : [2,20,50,10],
                     speed : [1,3,1,2],
-                    bullet : [false,false,false,true],
+                    bullet : [true,true,true,true],
                     _width : [126,108,126,120],
                     _height : [81,81,87,101]
 
